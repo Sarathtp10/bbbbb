@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Question</title>
+    <link rel="stylesheet" href="bbbbb.css">
+</head>
+<body>
+    <!-- Stage 1: Intro Question -->
+    <div class="stage" id="stage1">
+        <div class="container">
+            <div class="typing-text" id="typingText"></div>
+            <div class="buttons">
+                <button class="btn yes-btn" id="yesBtn1">Yes</button>
+                <button class="btn no-btn" id="noBtn1">No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stage 2: Video Player -->
+    <div class="stage hidden" id="stage2">
+        <div class="container">
+            <div class="video-container" id="videoContainer">
+                <video id="mainVideo" controls>
+                    <source src="b2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stage 3: Valentine Question -->
+    <div class="stage hidden" id="stage3">
+        <div class="container">
+            <h1 class="valentine-question" id="valentineTyping"></h1>
+            <div class="buttons">
+                <button class="btn yes-btn" id="yesBtn2">Yes</button>
+                <button class="btn no-btn" id="noBtn2">No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stage 4: Final Photo Reveal -->
+    <div class="stage hidden" id="stage4">
+        <div class="container">
+            <div class="photo-container">
+                <img id="finalPhoto" src="sr.jpg" alt="Your Photo">
+            </div>
+            <div class="final-typing" id="finalTyping"></div>
+        </div>
+    </div>
+
+    <script src="bb.js"></script>
+</body>
+</html>
